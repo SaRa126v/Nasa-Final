@@ -1,0 +1,453 @@
+.container {
+ width: 1390px;
+ height: 1750px;
+ margin: 0 auto;
+/* background-color: yellowgreen; */
+} 
+
+body{
+ background-color: #000;
+ /* font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;  */
+}
+
+
+/* header .............................................................*/
+header {
+background-image: url(img/back-header.jpg);
+width: 1340px;
+height: 160px ;
+margin: 0 auto;
+position: fixed;
+top: 0;
+z-index: 1;
+}
+
+header div {
+display: inline-block;
+}
+
+.nasaLogo {
+width: 120px;
+text-align: center;
+/* background-color: violet;  */
+}
+
+/* header menu....................................................... */
+
+.menu {
+/* background-color: yellowgreen;   */
+width: 960px;
+}
+.menu a {
+text-decoration: none; 
+color:white ;
+}
+.menu ul { 
+padding-left: 0px;
+list-style: none;
+}
+.menuTop>li,
+.menuBottom>li
+{
+display:inline-block ; 
+border-right: 2px solid rgb(92, 91, 91);
+}
+
+/* header menuTop..................................................... */
+
+.menuTop {
+/* background-color: thistle; */
+width: 1000px;
+margin-left: 90px;
+}
+.menuTop a {
+padding: 24px 12px ; 
+font-size: 18px; 
+}
+.menuTop>li:hover a{
+background-color: rgb(25, 79, 179);
+}
+.menuTop>li:last-of-type {
+border: none;
+}
+
+
+/* header submenu.....................................................*/
+
+.menuTop>li:hover ul{
+visibility: visible;
+background-color: rgb(25, 79, 179);
+margin-right: 0px;
+}
+.submenu {
+ position: absolute;
+ visibility: hidden;
+} 
+.submenu li {
+ position: relative;
+ padding: 1px 10px ;
+ vertical-align: middle;
+}
+.submenu a {
+ font-size: 12px;
+ padding: 0px;
+}
+.submenu hr {
+ margin: 0px;
+}
+.submenu li:hover,
+.submenu li:hover a 
+{
+ background-color: rgb(5, 44, 172);
+}
+.submenu li:first-of-type {
+ margin-top: 20px;
+}
+
+
+
+
+/* header menuBottom ..................................................*/
+
+.menuBottom { 
+width:984px ;
+height: 47px;
+background-color: rgb(83, 83, 83);
+}
+.menuBottom a {
+ padding: 15px 10px ; 
+ font-size: 13px;
+}
+.menuBottom li {
+ vertical-align:middle;
+ border-right: 2px solid rgb(110, 109, 109);
+}
+.menuBottom li:last-of-type {
+ border: none;
+}
+
+.menuBottom li:hover a {
+ background-color: gray;
+}
+
+/* header searchbox...................................................*/
+
+.searchbox {
+/* background-color: rgb(255, 71, 194); */
+width: 200px;
+vertical-align: top;
+margin-top: 19px;
+}
+.searchbox input {
+color: #fff;
+font-size: 15px;
+width: 130px ;
+height: 25px;
+outline: none;
+padding: 8px 15px 8px 10px ;
+background-color: rgb(61, 60, 60) ;
+border: none;
+}
+
+.searchbox input:focus {
+border: 1px solid #fff;
+border-radius: 3px;
+}
+
+.searchbox img:first-of-type {
+margin-left: -40px;
+vertical-align: middle;
+} 
+.searchbox img:last-of-type {
+width: 21px;
+vertical-align: middle;
+margin-left: 8px;
+}
+
+
+
+/* main & main1.................................................... */
+
+#main {
+  margin-top: 150px;
+}
+
+.main1 a,
+.main2 a,
+.main3 a {
+ text-decoration: none;
+ color: black;
+}
+
+.main1 {
+margin-bottom: 10px;
+}
+.main1L {
+background-image: url(img/1.png);
+display: inline-block;
+width: 640px;
+height: 610px;
+position: relative;
+}
+.main1R {
+margin-left: 35px;
+display: inline-block;
+width: 700px;
+/* background-color: blueviolet ;  */
+} 
+
+.main1R-TopL {
+position: relative;
+background-image: url(img/2.jpg);
+display: inline-block;
+width: 320px;
+height: 276px;
+}
+
+.main1R-TopR {
+display: inline-block;
+width: 300px ; 
+height: 276px  ;
+margin-left: 7px;
+background-color: rgb(73, 105, 167);  
+}
+
+.main1R-Bottom {
+position: relative;
+background-image: url(img/3.jpg);
+display: inline-block;
+ width: 640px;
+  height: 320px; 
+  margin-top: 7px;
+}
+
+ /* blue div....................................................... */
+
+ .main1R-TopR a {
+  color: white;
+  font-size: 11px;
+  text-decoration: none;
+  vertical-align: top;
+  margin-left: 10px;
+  display: inline-block;
+  }
+  .main1R-TopR a:hover {
+  text-decoration:underline white ;
+  }
+  .main1R-TopR a:last-of-type {
+   margin-left: 50px;
+  }
+  
+  .main1R-TopR span {
+   color: white;
+   font-size: 11px;
+  margin-left: 10px;
+  }
+  .main1R-TopR hr {
+   margin: 0 ;
+  }
+
+  .main1R-TopR hr:last-of-type {
+   margin-top: 10px ;
+  }
+  
+/* text.............................................................. */
+
+.main1L a span,
+.main1R-Bottom a span,
+.main2M a span,
+.main3L1 a span
+{
+ background-color: rgba(0, 94, 201, 0.671);
+ color: #fff;
+ font-size: 15px;
+ padding: 4px;
+position: absolute;
+ bottom: 35px;
+ left: 0; 
+} 
+.main2R a span, 
+.main3L2 a span,
+.main3R2 a span,
+.main3R1 a span
+{
+ background-color: rgba(0, 94, 201, 0.671);
+ color: #fff;
+ font-size: 15px;
+ padding: 4px;
+ position: absolute;
+ bottom: 55px;
+ left: 0;
+}
+
+
+.main1L a span:hover,
+.main1R-Bottom a span:hover,
+.main2 a span:hover,
+.main3 a span:hover {
+ background-color: rgb(10, 103, 190)
+}
+
+.main1L a p,
+.main1R-TopL a p,
+.main1R-Bottom a p,
+.main2 a p,
+.main3 a p 
+{
+  margin-bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.815);
+ font-size: 15px;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+}
+
+.main1L a p:hover,
+.main1R-TopL a p:hover,
+.main1R-Bottom a p:hover,
+.main2 a p:hover,
+.main3 a p:hover
+{
+ background-color: white
+}
+
+.main1L a p { 
+ padding: 6px 118px 6px 0px;
+}
+.main1R-Bottom a p {
+ padding: 6px 278px 6px 0px;
+}
+.main2L a p {
+ padding: 6px 102px 6px 0px;
+}
+.main2M a p {
+ padding: 6px 163px 6px 0px;
+}
+.main2R a p,
+.main3 a p {
+  padding: 6px 25px 6px 0px;
+}
+
+/* main2 & main3 */
+
+.main2 {
+margin-bottom: 10px;
+}
+
+.main2M {
+background-image: url(img/5.jpg);
+display: inline-block; 
+width: 653px;
+ height: 300px;
+ position: relative;
+ margin-right: 7px;
+}
+.main2L {  
+background-image: url(img/4.jpg); 
+margin-right: 7px;
+}
+.main2R {
+ background-image: url(img/6.jpg);
+ margin-right: 7px;
+}
+
+.main2L,
+.main2R, 
+.main3L1,
+.main3L2,
+.main3R2,
+.main3R1 {
+ width: 320px;
+ height: 300px;
+ position: relative;
+display: inline-block;
+}
+
+.main3L1 {
+ background-image: url(img/7.jpg);
+ margin-right: 7px;
+}
+.main3L2 {
+ background-image: url(img/8.jpg);
+ margin-right: 7px;
+}
+.main3R1 {
+ background-image: url(img/9.jpg);
+ margin-right: 7px;
+}
+.main3R2 {
+ background-image: url(img/10.jpg);
+}
+
+/* ................................................................................... */
+
+.more-stories {
+ background-color: rgba(64, 64, 207, 0.658);
+ position: absolute;
+ top: 1090px;
+ width: 99%;
+ padding: 13px;
+ color: rgba(255, 255, 255, 0.84);
+ font-size: 17px;
+ font-weight: 600;
+ margin-left: 38px;
+}
+
+.more-stories:hover {
+ background-color: rgba(146, 146, 208, 0.833);
+ color: rgba(255, 255, 255, 0.84);
+}
+
+#more-stories{
+ display: block;
+ margin-top: 30px;
+}
+#more-stories input{
+ width: 1320px;
+ padding: 20px;
+ background-color: rgb(67, 67, 234);
+ color: #fff;
+ font-size: 27px;
+ font-weight: bold;
+ border: none;
+}
+#more-stories input:hover{
+ background-color: rgb(94, 94, 236);
+}
+/* foooter Start */
+#footer {
+ padding: 20px 8px 0 8px;
+ font-family: Arial, Helvetica, sans-serif;
+ width: 1310px;
+ position: relative;
+}
+
+.footer-L a img {
+ width: 95px;
+ float: left;
+}
+.footer-L{
+ padding: 20px 0 30px 0;
+}
+.footer-L span {
+ color: #fff;
+ display: block;
+ font-weight: bold;
+ font-size: 14px;
+}
+.footer-link{
+ margin-top: 15px;
+}
+.footer-link a {
+ float: right;
+ font-size: 14px;
+ font-weight: bold;
+ margin-left: 30px;
+ color: rgb(93, 128, 185);
+ text-decoration: none;
+}
+
+.footer-link a:hover {
+ text-decoration: underline;
+}
+/* footer End */
