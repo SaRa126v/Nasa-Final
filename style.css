@@ -5,9 +5,14 @@
 /* background-color: yellowgreen; */
 } 
 
+@font-face {
+  src: url(Font-Comic-Sans-MS/comic.ttf);
+  font-family: Comic Sans MS;
+}
+
 body{
  background-color: #000;
- /* font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;  */
+ font-family: Comic Sans MS;
 }
 
 
